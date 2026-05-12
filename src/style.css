@@ -1,24 +1,26 @@
 body {
-  background: linear-gradient(
-    90.4deg,
-    rgb(248, 52, 246) 0.6%,
-    rgb(152, 38, 252) 90%
-  );
+  background: linear-gradient(90.4deg,
+      rgb(248, 52, 246) 0.6%,
+      rgb(152, 38, 252) 90%);
 }
+
 .container {
   margin: 50px auto;
   max-width: 800px;
   text-align: center;
 }
+
 h1 {
   margin-bottom: 60px;
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 50px;
 }
+
 form {
   margin-bottom: 5px;
 }
+
 .instructions {
   padding: 15px;
   border: 1px solid rgba(39, 33, 66, 0.5);
@@ -26,6 +28,7 @@ form {
   font-size: 20px;
   border-radius: 30px;
 }
+
 .button {
   margin-left: 10px;
   background: rgb(84, 239, 76);
@@ -34,11 +37,13 @@ form {
   padding: 15px;
   font-size: 20px;
 }
+
 .small {
   margin-left: -380px;
   font-size: 15px;
   opacity: 0.6;
 }
+
 .textPoem {
   margin-top: 35px;
   margin-left: 140px;
@@ -47,35 +52,42 @@ form {
   line-height: 30px;
   text-align: left;
 }
+
 .textPoem i {
-  color: rgb(84, 239, 76);
+  color: rgb(13, 255, 0);
 }
 
 .textPoem strong {
-  color: rgb(84, 239, 76);
+  color: rgb(13, 255, 0);
 }
+
 a {
-  color: rgb(84, 239, 76);
+  color: rgb(13, 255, 0);
+  text-decoration: none;
 }
 
 .generating {
   animation: blink-animation 0.3s steps(5, start) infinite;
 }
+
 @keyframes blink-animation {
   to {
     visibility: hidden;
   }
 }
+
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
   }
 }
+
 .courgette-regular {
   font-family: "Courgette", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
 .akaya-kanadaka-regular {
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 600;
